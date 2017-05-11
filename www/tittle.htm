@@ -1,0 +1,462 @@
+﻿<!DOCTYPE html>
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+   <title>tittle</title>
+  <style type="text/css">
+
+body {
+
+  background-color: #fff;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 0;
+  margin-right: 0;
+  padding-right: 0px;
+  /*height: 100vh;*/
+}
+
+.container {
+ width: 95%;
+  background-color: #eeeeee;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 1%;
+  margin-right: 1%;
+  padding-top: 5px;
+  padding-right: 1%;
+   padding-left: 2%;
+   float: left;
+  /*height: 100vh;*/
+}
+
+.header{
+	background-color: #fff;
+	background-image: url(../img/1000PixSULogo.png);
+	background-repeat: no-repeat;
+	background-position: center 0px;
+	background-size: auto 80px;
+	height: 80px;
+	margin-bottom: 0px;
+	width: 100%;
+	border: 0px solid #000;
+	float: left;
+	margin-bottom: 0px;
+}
+
+.appRow {
+    color: #fff;
+    background-color: #fff;
+    width: 98%;
+    height: 80px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    margin-top: 0px;
+	margin-right: 0px;
+	margin-left: 0px;
+    display: block;
+    font-style: normal;
+    font-weight: normal;
+    vertical-align: middle;
+    border-left: 0px solid #fff;
+    border-right: 0px solid #ccc;
+    border-bottom: 0px solid #fff;
+    border-top: 0px solid #253e52;
+    float: left;
+}
+
+	
+
+.btn-install {
+	color: #0d9c57;
+    background-color: #fff;
+	height: 40px;
+	width: 30%;
+	float: right;
+	border-radius: 4px;
+	display: block;
+	border: 0px solid #000;
+	text-align: right;
+	padding-top: 20px;
+	padding-right: 20px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	margin-left: 0px;
+	margin-right: 0px;
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 12px;
+}
+
+.btn-install:hover, 
+.btn-install:focus, 
+.btn-install:active, 
+.btn-install.active, 
+.open .dropdown-toggle.btn-install { 
+   color: #0d9c57;
+   background-color: #fff;
+   border-radius: 0px;
+   text-decoration: none;
+}
+
+
+.btn-iOS {
+	color: #0d9c57;
+    background-color: #fff;
+	height: 50px;
+	width: auto;
+	float: left;
+	border-radius: 4px;
+	display: block;
+	border: 0px solid #000;
+	text-align: right;
+	padding-top: 0px;
+	padding-right: 40px;
+	margin-top: 0px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 12px;
+	background-image: url(../img/iOSIcon.png);
+	background-repeat: no-repeat;
+	background-position: center 0px;
+	background-size: auto 50px;
+}
+
+.btn-iOS:hover, 
+.btn-iOS:focus, 
+.btn-iOS:active, 
+.btn-iOS.active, 
+.open .dropdown-toggle.btn-iOS { 
+   color: #0d9c57;
+   background-color: #fff;
+   border-radius: 0px;
+   text-decoration: none;
+}
+
+.btn-android {
+	color: #0d9c57;
+    background-color: #fff;
+	height: 50px;
+	width: auto;
+	float: left;
+	border-radius: 4px;
+	display: block;
+	border: 0px solid #000;
+	text-align: right;
+	padding-top: 0px;
+	padding-right: 40px;
+	margin-top: 0px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 12px;
+	background-image: url(../img/androidIcon.png);
+	background-repeat: no-repeat;
+	background-position: center 0px;
+	background-size: auto 50px;
+}
+
+.btn-android:hover, 
+.btn-android:focus, 
+.btn-android:active, 
+.btn-android.active, 
+.open .dropdown-toggle.btn-android { 
+   color: #0d9c57;
+   background-color: #fff;
+   border-radius: 0px;
+   text-decoration: none;
+}
+
+
+	
+.appIcon {
+    width: 70px;
+    height: 70px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    /*border-top-left-radius: 5px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 0px;*/
+    overflow: hidden;
+    padding: none;
+    margin-top: 5px;
+    margin-left: 10px;
+    float: left;
+}	
+
+.appIcon img {
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    margin: 0 0 0 0;
+}
+
+.appInfo {
+    width: 100px;
+    border: 0px solid #000;
+    display: block;
+    float: left;
+	padding-left: 5px;
+}	
+	
+.appName {
+    color: #000;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    border: 0px solid #000;
+    display: block;
+    font-style: normal;
+    font-weight: bold;
+    margin-left: 0px;
+    margin-top: 3px;
+    margin-bottom: 5px;
+    float: left;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    width: 100%;
+    vertical-align: top;
+    /*white-space: pre-line;
+    word-spacing: 9999999px;*/
+    line-height: 16px;
+}	
+
+.appVersion {
+    color: #000;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    border: 0px solid #000;
+    display: block;
+    font-style: normal;
+    font-weight: normal;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 3px;
+    float: left;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    width: 100%;
+    vertical-align: top;
+    /*white-space: pre-line;
+    word-spacing: 9999999px;*/
+    line-height: 16px;
+}
+
+.appBuild {
+    color: #000;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    border: 0px solid #000;
+    display: block;
+    font-style: normal;
+    font-weight: normal;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 3px;
+    float: left;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    width: 100%;
+    vertical-align: top;
+    /*white-space: pre-line;
+    word-spacing: 9999999px;*/
+    line-height: 16px;
+}
+
+.InstallAppRow {
+    color: #fff;
+    background-color: #fff;
+    width: 100%;
+    height: 80px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    margin-top: 0px;
+	margin-right: 0px;
+	margin-left: 0px;
+    display: block;
+    font-style: normal;
+    font-weight: normal;
+    vertical-align: middle;
+    border-left: 0px solid #fff;
+    border-right: 0px solid #ccc;
+    border-bottom: 0px solid #fff;
+    border-top: 0px solid #253e52;
+    float: left;
+}
+
+.installs {
+	color: #0d9c57;
+    background-color: #fff;
+	height: 40px;
+	width: 45%;
+	float: right;
+	border-radius: 4px;
+	display: block;
+	border: 0px solid #000;
+	text-align: center;
+	padding-top: 0px;
+	padding-right: 0px;
+	margin-top: 0px;
+	margin-bottom: 20px;
+	margin-left: 0px;
+	margin-right: 0px;
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 12px;
+}
+
+.vidScreen{
+	background-color: #000;
+	/*background-image: url(../img/videoScreen.jpg);
+	background-repeat: no-repeat;
+	background-position: center 0px;*/
+	background-size: 100% auto;
+	height: 140px;
+	margin-bottom: 0px;
+	width: 100%;
+	border: 0px solid #000;
+	float: left;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+.chooseDev {
+    color: #999999;
+    padding-top: 0px;
+    padding-bottom: 0px;
+	padding-right: 5px;
+    border: 0px solid #000;
+    display: block;
+    font-style: normal;
+    font-weight: bold;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 3px;
+    float: left;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    width: 100%;
+    vertical-align: top;
+    /*white-space: pre-line;
+    word-spacing: 9999999px;*/
+    line-height: 16px;
+}
+      .iframe-container {
+          position: relative;
+          margin: 5px;
+          height: 0;
+          overflow: hidden;
+      }
+
+      .iframe-container-for-wxh-500x350 {
+          padding: 25px 25px 70% 25px; /* padding-bottom = h/w as a % */
+      }
+
+      .iframe-container iframe {
+          position: absolute;
+          top: 0;
+          left: 0;
+          margin: 0;
+          padding: 0;
+          width: 100%;
+          height: 100%;
+          border: 1px inset #7a8b8b;
+          /* put following styles (necessary for overflow and
+scrolling handling) in div container around iframe
+because not stable in CSS
+-webkit-overflow-scrolling: touch;
+overflow: auto; */
+      }
+
+	
+</style>
+
+<!--<script language="javascript" type="text/javascript">
+function openURL(urlString){
+    myURL = encodeURI(urlString);
+    window.open(myURL, '_blank');
+}
+</script>
+
+<script type="text/javascript">
+    document.addEventListener('deviceready', function() {
+        var url = 'https://mobility-idcdev.uhc.com/AppsDeployV2/App_Builds/salesu/SalesU.apk' // change to whatever you want
+        cordova.InAppBrowser.open(url, '_self', 'location=no');
+    }, false)
+</script>-->
+
+<script type="text/javascript" src="tittle_files/jquery-1.js"></script>
+
+<!--<script type="text/javascript">
+$('a').click(function() {
+	alert("Link clicked.");
+    if (this.host !== window.location.host) {
+        window.open(this.href, '_system');
+        return false;
+    }
+});
+</script>-->
+<script type="text/javascript">
+			$(document).on('click','a',function(e) {
+    if ($(this).attr('target') === '_blank') {
+        window.open($(this).attr('href'),'_system','location=no');
+        e.preventDefault();
+    }
+});
+			</script>
+
+</head>
+
+<body>
+<div class="header"></div> 
+    <div class="iframe-container iframe-container-for-wxh-500x350" style="-webkit-overflow-scrolling: touch; 
+overflow: auto;"><iframe src="http://vod01.uhc.com/html5/html5lib/v1.7.0/mwEmbedFrame.php/wid/0_menw728h/uiconf_id/11170609/entry_id/0_bxwl362q"> <p style="font-size: 110%;"><em>
+        <strong>IFRAME: </strong> There is iframe content being displayed here but your browser version does not support iframes.</em> Please update your browser to its most recent version and try again.</p> </iframe></div>
+   
+ 
+<!--<div class="vidScreen">
+    <iframe src="http://vod01.uhc.com/html5/html5lib/v1.7.0/mwEmbedFrame.php/wid/0_menw728h/uiconf_id/11170609/entry_id/0_bxwl362q" 
+    marginwidth="0" scrolling="no" width="212" height="140" frameborder="0"></iframe></div> 
+
+<!--<a class="btn-dwnLoad" href="https://build.phonegap.com/apps/2574592/install/zs2773sgnh1a7N97vsfc">Install iOS App</a>-->
+<div class="installAppRow">
+<img class="appIcon" src="tittle_files/iconOne.png" border="0"> 
+<div class="appInfo">
+<span class="appName">
+One Mobile
+</span>
+<span class="appVersion">
+Version 2.0
+</span>
+<span class="appBuild">
+Build #22
+</span>
+</div> 
+
+<div class="installs">
+<span class="chooseDev">CHOOSE YOUR DEVICE</span>
+<a class="btn-iOS" href="itms-services://?action=download-manifest&amp;url=https://mobility-idcdev.uhc.com/appsdeployv2/App_Builds/salesu/SalesU.plist"></a>
+<!--<a class="btn-android" target="_blank" href="https://mobility-idcdev.uhc.com/AppsDeployV2/App_Builds/salesu/SalesU.apk">-->
+
+<!--<a class="btn-android" href='#' onclick="openURL('https://mobility-idcdev.uhc.com/AppsDeployV2/App_Builds/salesu/SalesU.apk');"></a>-->
+
+<!--<a class="btn-android" href="https://mobility-idcdev.uhc.com/AppsDeployV2/App_Builds/salesu/SalesU.apk"></a>-->
+<a class="btn-android" "window.open(this.href,'_system','location="no');return" false;"="" href="https://mobility-idcdev.uhc.com/AppsDeployV2/App_Builds/salesu/SalesU.apk"></a>
+</div>
+
+</div>
+
+
+
+  
+</body></html>
